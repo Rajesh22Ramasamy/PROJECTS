@@ -1,0 +1,169 @@
+C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/MEM_WB_REGISTER/MEM_WB_REGISTER.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/MEM_WB_REGISTER/MEM_WB_REGISTER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MEM_WB_REGISTER
+
+Top level modules:
+	MEM_WB_REGISTER
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/BRANCH_LOGIC/BRANCH_LOGIC.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/BRANCH_LOGIC/BRANCH_LOGIC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BRANCH_LOGIC
+
+Top level modules:
+	BRANCH_LOGIC
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/PIPELINED_RISC_V_INTEGRATED/tb_RISC_V_PIPELINED_PROCESSOR.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/PIPELINED_RISC_V_INTEGRATED/tb_RISC_V_PIPELINED_PROCESSOR.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_RISC_V_PIPELINED_PROCESSOR
+
+Top level modules:
+	tb_RISC_V_PIPELINED_PROCESSOR
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/MAIN_CONTROL_UNIT/MAIN_CONTROL_UNIT.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/MAIN_CONTROL_UNIT/MAIN_CONTROL_UNIT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MAIN_CONTROL
+
+Top level modules:
+	MAIN_CONTROL
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/REGISTER_FILE/REGISTER_FILE.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/REGISTER_FILE/REGISTER_FILE.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module REGISTER_FILE
+
+Top level modules:
+	REGISTER_FILE
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/DATA_MEMORY/TB_DATA_MEMORY.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/DATA_MEMORY/TB_DATA_MEMORY.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_DATA_MEMORY
+
+Top level modules:
+	tb_DATA_MEMORY
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/FORWARDING_UNIT/TB_FORWARDING_UNIT.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/FORWARDING_UNIT/TB_FORWARDING_UNIT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_FORWARDING_UNIT
+
+Top level modules:
+	tb_FORWARDING_UNIT
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/ID_EX_REGISTER/ID_EX_REGISTER.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/ID_EX_REGISTER/ID_EX_REGISTER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ID_EX_REGISTER
+
+Top level modules:
+	ID_EX_REGISTER
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/IMMEDIATE_GENERATOR/IMMEDIATE_GENERATOR.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/IMMEDIATE_GENERATOR/IMMEDIATE_GENERATOR.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IMMEDIATE_GENERATOR
+
+Top level modules:
+	IMMEDIATE_GENERATOR
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/BRANCH_LOGIC/TB_BRANCH_LOGIC.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/BRANCH_LOGIC/TB_BRANCH_LOGIC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_BRANCH_LOGIC
+
+Top level modules:
+	tb_BRANCH_LOGIC
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/HAZARD_DETECTION_UNIT/TB_HAZARD_DETECTION_UNIT.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/HAZARD_DETECTION_UNIT/TB_HAZARD_DETECTION_UNIT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_HAZARD_DETECTION_UNIT
+
+Top level modules:
+	tb_HAZARD_DETECTION_UNIT
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/PC_ADDER/PC_ADDER.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/PC_ADDER/PC_ADDER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC_ADDER
+
+Top level modules:
+	PC_ADDER
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/INSTRUCTION_MEMORY/INSTRUCTION_MEMORY.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/INSTRUCTION_MEMORY/INSTRUCTION_MEMORY.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module INSTRUCTION_MEMORY
+
+Top level modules:
+	INSTRUCTION_MEMORY
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/ALU_MODULE/TB_ALU.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/ALU_MODULE/TB_ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_ALU
+
+Top level modules:
+	tb_ALU
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/IF_ID_REGISTER/IF_ID_REGISTER.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/IF_ID_REGISTER/IF_ID_REGISTER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IF_ID_REGISTER
+
+Top level modules:
+	IF_ID_REGISTER
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/PROGRAM_COUNTER/PROGRAM_COUNTER.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/PROGRAM_COUNTER/PROGRAM_COUNTER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PROGRAM_COUNTER
+
+Top level modules:
+	PROGRAM_COUNTER
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/EX_MEM_REGISTER/EX_MEM_REGISTER.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/EX_MEM_REGISTER/EX_MEM_REGISTER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EX_MEM_REGISTER
+
+Top level modules:
+	EX_MEM_REGISTER
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/HAZARD_DETECTION_UNIT/HAZARD_DETECTION.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/HAZARD_DETECTION_UNIT/HAZARD_DETECTION.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module HAZARD_DETECTION_UNIT
+
+Top level modules:
+	HAZARD_DETECTION_UNIT
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/ALU_CONTROL_UNIT/TB_ALU_CONTROL.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/ALU_CONTROL_UNIT/TB_ALU_CONTROL.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_ALU_CONTROL
+
+Top level modules:
+	tb_ALU_CONTROL
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/ALU_MODULE/ALU.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/ALU_MODULE/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/ALU_CONTROL_UNIT/ALU_CONTROL_UNIT.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/ALU_CONTROL_UNIT/ALU_CONTROL_UNIT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_CONTROL
+
+Top level modules:
+	ALU_CONTROL
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/PIPELINED_RISC_V_INTEGRATED/RISC_V.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/PIPELINED_RISC_V_INTEGRATED/RISC_V.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RISC_V_PIPELINED_PROCESSOR
+
+Top level modules:
+	RISC_V_PIPELINED_PROCESSOR
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/FORWARDING_UNIT/FORWARDING_UNIT.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/FORWARDING_UNIT/FORWARDING_UNIT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FORWARDING_UNIT
+
+Top level modules:
+	FORWARDING_UNIT
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/DATA_MEMORY/DATA_MEMORY.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/RISV_ARCHITECTURE/DATA_MEMORY/DATA_MEMORY.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DATA_MEMORY
+
+Top level modules:
+	DATA_MEMORY
+
+} {} {}}
