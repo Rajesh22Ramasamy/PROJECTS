@@ -1,0 +1,63 @@
+# Compile of BAUD_GENERATOR.v was successful.
+# Compile of TB_BAUD_GENERATOR.v was successful.
+# Compile of TB_TX_MODULE.v was successful.
+# Compile of TX_MODULE.v was successful.
+# Compile of RX_MODULE.v was successful.
+# Compile of TB_RX_MODULE.v was successful.
+# Compile of UART_CONTROLLER.v was successful.
+# Compile of TB_UART_CONTROLLER.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.tb_TX_MODULE
+# vsim -gui work.tb_TX_MODULE 
+# Start time: 19:22:52 on Sep 15,2026
+# Loading work.tb_TX_MODULE
+# Loading work.BAUD_GENERATOR
+# Loading work.TX_MODULE
+add wave -position insertpoint  \
+sim:/tb_TX_MODULE/tx_start \
+sim:/tb_TX_MODULE/baud_tick \
+sim:/tb_TX_MODULE/baud_restart \
+sim:/tb_TX_MODULE/tx
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: rajes  Hostname: RAJESH  ProcessID: 23480
+#           Attempting to use alternate WLF file "./wlfty6ya4v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfty6ya4v
+run -all
+# Time=0 | reset=1 | tx_start=0 | tx_data=00000000 | baud_tick=x | baud_restart=x | tx_busy=x | tx=x
+# Time=10000 | reset=1 | tx_start=0 | tx_data=00000000 | baud_tick=0 | baud_restart=0 | tx_busy=0 | tx=1
+# Time=100000 | reset=0 | tx_start=0 | tx_data=00000000 | baud_tick=0 | baud_restart=0 | tx_busy=0 | tx=1
+# Time=200000 | reset=0 | tx_start=1 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=0 | tx=1
+# Time=210000 | reset=0 | tx_start=1 | tx_data=01000001 | baud_tick=0 | baud_restart=1 | tx_busy=1 | tx=1
+# Time=220000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=1 | tx_busy=1 | tx=1
+# Time=230000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=1230000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=1 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=1250000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=1270000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=1 | tx=1
+# Time=2230000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=1 | baud_restart=0 | tx_busy=1 | tx=1
+# Time=2250000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=1 | tx=1
+# Time=2270000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=3230000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=1 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=3250000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=4230000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=1 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=4250000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=5230000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=1 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=5250000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=6230000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=1 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=6250000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=7230000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=1 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=7250000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=7270000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=1 | tx=1
+# Time=8230000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=1 | baud_restart=0 | tx_busy=1 | tx=1
+# Time=8250000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=1 | tx=1
+# Time=8270000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=9230000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=1 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=9250000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=1 | tx=0
+# Time=9270000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=1 | tx=1
+# Time=10230000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=1 | baud_restart=0 | tx_busy=1 | tx=1
+# Time=10250000 | reset=0 | tx_start=0 | tx_data=01000001 | baud_tick=0 | baud_restart=0 | tx_busy=0 | tx=1
+# ** Note: $stop    : C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/TX_MODULE/TB_TX_MODULE.v(129)
+#    Time: 10450 ns  Iteration: 0  Instance: /tb_TX_MODULE
+# Break in Module tb_TX_MODULE at C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/TX_MODULE/TB_TX_MODULE.v line 129
+# End time: 20:04:34 on Sep 18,2026, Elapsed time: 72:41:42
+# Errors: 0, Warnings: 4

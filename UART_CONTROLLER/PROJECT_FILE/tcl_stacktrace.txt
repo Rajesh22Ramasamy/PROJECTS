@@ -1,0 +1,36 @@
+Thu Aug 13 21:18:04 IST 2026
+Trace back: can't read "vsimPriv(:current_tree)": no such element in array
+    while executing
+"configure wave -namecolwidth 150"
+    ("eval" body line 1)
+    invoked from within
+"eval $configs"
+    (procedure "Wave::WaveUnDock" line 10)
+    invoked from within
+"Wave::WaveUnDock .main_pane.wave"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-undockcommand) $frame_name"
+    (object "::.main_pane.wave" method "::mtiwidgets::WindowObj::_UnDock" body line 77)
+    invoked from within
+"$windowobj _UnDock"
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::UnDock" body line 31)
+    invoked from within
+"UnDock $windowobj $geometry $suppress_error"
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::ToggleDock" body line 16)
+    invoked from within
+"::.windowmgr ToggleDock .main_pane.wave"
+    (in namespace inscope "::mtiwidgets::WindowMgr" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::WindowMgr {::.windowmgr ToggleDock .main_pane.wave}"
+    invoked from within
+".main_pane.wave.interior.header.btns.expel invoke"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke]"
+    (procedure "tk::ButtonUp" line 24)
+    invoked from within
+"tk::ButtonUp .main_pane.wave.interior.header.btns.expel"
+    (command bound to event)
+  <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {can't read "vsimPriv(:current_tree)": no such element in array}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't read "vsimPriv(:current_tree)": no such element in array}

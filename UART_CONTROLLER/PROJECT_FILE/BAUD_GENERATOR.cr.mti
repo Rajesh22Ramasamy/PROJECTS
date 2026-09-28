@@ -1,0 +1,57 @@
+C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/BAUD_GENERATOR/BAUD_GENERATOR.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/BAUD_GENERATOR/BAUD_GENERATOR.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BAUD_GENERATOR
+
+Top level modules:
+	BAUD_GENERATOR
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/BAUD_GENERATOR/TB_BAUD_GENERATOR.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/BAUD_GENERATOR/TB_BAUD_GENERATOR.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_BAUD_GENERATOR
+
+Top level modules:
+	tb_BAUD_GENERATOR
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/UART_CONTROLLER/UART_CONTROLLER.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/UART_CONTROLLER/UART_CONTROLLER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UART_CONTROLLER
+
+Top level modules:
+	UART_CONTROLLER
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/RX_MODULE/RX_MODULE.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/RX_MODULE/RX_MODULE.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RX_MODULE
+
+Top level modules:
+	RX_MODULE
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/TX_MODULE/TX_MODULE.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/TX_MODULE/TX_MODULE.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TX_MODULE
+
+Top level modules:
+	TX_MODULE
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/UART_CONTROLLER/TB_UART_CONTROLLER.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/UART_CONTROLLER/TB_UART_CONTROLLER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_UART_CONTROLLER
+
+Top level modules:
+	tb_UART_CONTROLLER
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/RX_MODULE/TB_RX_MODULE.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/RX_MODULE/TB_RX_MODULE.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_RX_MODULE
+
+Top level modules:
+	tb_RX_MODULE
+
+} {} {}} C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/TX_MODULE/TB_TX_MODULE.v {1 {vlog -work work -stats=none C:/Users/rajes/OneDrive/Documents/VLSI_PROJECTS/UART_CONTROLLER/TX_MODULE/TB_TX_MODULE.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_TX_MODULE
+
+Top level modules:
+	tb_TX_MODULE
+
+} {} {}}
